@@ -1,0 +1,217 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;     
+}
+.container {
+   height: 100%;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+
+/* ----left side---- */
+.left-side {
+    height: 1350px ;
+    width: 350px;
+    background-color: rgb(78, 78, 112);
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+        
+}
+.image {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   background-color: black;
+   margin-top: 50px;
+}
+.left-side img{
+   max-width: 100%;
+   max-height: 100%;
+   border-radius: 50%;
+   
+}
+.contact {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 15%;
+  
+}
+.contact h1 {
+ margin-bottom: 50px;
+ border-bottom: 500px;
+ background-color: rgb(138, 147, 173);
+ border-start-start-radius: 20px;
+}
+
+.contact li {
+   padding: 2px;
+}
+.contact li:nth-child(odd) {
+   color:  rgb(200, 200, 233); 
+}
+.contact li:nth-child(even){
+   margin-bottom: 20px;
+}
+.contact ul {
+   list-style-type: none;
+}
+.Hobbies {
+   position: absolute;
+  margin-top: 600px;
+  margin-left: 15%;
+}
+.Hobbies h1{
+   margin-bottom: 50px;
+   border-bottom: 500px;
+   background-color: rgb(138, 147, 173);
+   border-start-start-radius: 20px;
+}
+.Hobbies li {
+   padding: 2px;
+}
+.Hobbies li:nth-child(even){
+   margin-bottom: 20px;
+}
+.Hobbies ul {
+   list-style-type: none;
+}
+
+.skill {
+   position: absolute;
+   margin-top: 850px;    
+   margin-left:15%
+}
+
+.skill h1 {
+   margin-bottom:10%;
+   background-color: rgb(138, 147, 173);;
+   border-start-start-radius: 20px;
+   width: 297px;
+  
+}
+.skill li {
+   padding: 10px;
+   margin-left: 20px;
+   
+}
+
+
+.Language {
+   position: absolute;
+   margin-top: 1160px;
+   margin-left: 15%;
+
+}
+.Language h1 {
+   margin-bottom: 50px;
+   border-bottom: 500px;
+   background-color: rgb(138, 147, 173);
+   border-start-start-radius: 20px;
+   width: 297px;
+}
+.Language li {
+   padding: px;
+   list-style-type: none;
+   margin: 10px;
+}
+/* -----right side----- */
+.right-side {
+   position: relative;
+   height: 1350px;
+   width: 650px;
+   background-color: rgb(243, 237, 237);
+   color:rgb(78, 78, 112);
+  
+   
+}
+.right-side h1 {
+  padding: 20px;
+  margin-top: 80px;
+}
+.right-side .para {
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.right-side span {
+ margin-left: 30px;
+ 
+}
+
+.box {
+   margin-top:80px;
+}
+.experience {
+   position: relative;
+   margin-top: 30px; 
+   margin-left:30px; 
+   display: flex;
+   flex-wrap: wrap;
+  margin-right: 30px;
+   
+}
+
+
+.experience .com-1{
+   margin-top: 30px;
+}
+.experience .com-2{
+   margin-top: 30px;
+}
+.experience h2 {
+   margin-bottom: 5px;
+   border-bottom: 1px solid silver;
+   width:100%;
+}
+.experience h4 {
+   padding: 1px;   
+
+}
+.Education-right {
+   padding: 30px 30px 30px;
+   margin-top: 30px;
+}
+.Education-right .edu-1 {
+      margin-top: 30px;
+}
+
+.Education-right .edu-2 {
+   margin-top: 30px;
+}
+.Education-right .edu-3 {
+   margin-top: 30px;
+}
+.personal-details {
+    position: relative;
+   margin-top: 25px;      
+}
+.per-box {
+   
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+ 
+}
+   
+.personal-details ul {
+   
+  margin-top: 20px;
+  list-style-type: none;
+  padding-right: 10px;
+ 
+}
+.personal-details li {
+   margin-bottom: 20px;
+}
+
+  
